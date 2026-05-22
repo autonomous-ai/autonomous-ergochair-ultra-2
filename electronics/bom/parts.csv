@@ -1,0 +1,18 @@
+qty,part,description,value,package,supplier,link,unit_price_usd,notes
+1,MCU,Microcontroller board,ESP32-S3 DevKit-C,DevKit,Espressif,,,Wi-Fi + BLE main brain
+1,IMU,9-axis IMU,BMI270 (or MPU-6050),breakout,,,,back recline angle
+1,ADC,16-bit ADC,ADS1115,breakout I2C,,,,reads pressure mat
+1,PRESSURE,Air-pressure sensor,BMP280,breakout I2C,,,,plumbed to lumbar bladder line
+1,PUMP,Mini diaphragm air pump,6V,,,,,lumbar inflate
+1,VALVE,2-way solenoid air valve,6V,,,,,bladder deflate
+2,MOSFET,Logic-level N-MOSFET,IRLZ44N or AO3400,TO-220 / SOT-23,,,,pump + valve drivers
+2,DIODE,Flyback diode,1N4007,DO-41,,,,across pump + valve
+1,LED_RING,Addressable RGB ring,WS2812 24-pixel,module,,,,status indicator under base
+1,HAPTIC,Coin vibration motor,3V 1020 type,,,,seat-pan haptic cue
+1,CHARGER,Li-ion charger,TP4056 USB-C with protection,module,,,,
+1,BOOST,Boost converter,MT3608 or equivalent,module,,,,5V rail for pump
+2,BATTERY,18650 li-ion cell,3.7V 3000mAh,,,,protected
+1,FUSE,PTC resettable fuse,2A,,,,,on battery output
+,WIRE,Silicone hookup wire,22 AWG,,,,,assorted colors, flex sections
+,CONN,JST-XH connectors,2/3/4 pin,,,,,for modular sensor cables
+1,FSR_MAT,Velostat sensor mat (16 cells),DIY or sourced,,,,,seat-pan pressure

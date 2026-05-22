@@ -1,0 +1,21 @@
+qty,category,part,description,supplier,link,unit_price_usd,notes
+1,base,caster_spider,5-arm aluminium chair base 700mm,,,,
+5,base,caster,65mm PU twin-wheel caster,,,,press-fit
+1,base,gas_cylinder,Class-4 gas lift 80mm stroke,,,,SGS-certified
+1,frame,tilt_mechanism,Synchro-tilt with locking,,,,4x M8 mount
+1,frame,back_frame,Mesh back with steel inner frame,,,,lumbar bladder mounts behind mesh
+1,frame,seat_pan,Molded foam seat 500x500mm + cover,,,,pressure-mat pocket
+2,frame,armrest_post,Steel armrest column,,,,for 4D adjustable arm pads
+2,frame,armrest_pad,4D adjustable arm pad,,,,height/width/depth/swivel
+1,frame,headrest,Adjustable mesh headrest,,,,slides on twin posts
+1,soft,lumbar_bladder,Air bladder 200x100mm,,,,4mm OD inlet
+1,soft,air_tubing,4mm OD silicone tubing,,,,2m
+2,soft,tubing_clip,Cable / tubing clip,,,,3D printable
+1,electronics,controller_housing,3D printed enclosure,self,,,from cad/stl
+1,electronics,main_pcb_assembled,Assembled main controller PCB,self,,,or order from electronics/pcb gerbers
+1,electronics,power_pcb_assembled,Assembled power/charging PCB,self,,,
+,fasteners,m4_screws_pack,M4 socket head screws (assorted),,,,
+,fasteners,m6_screws_pack,M6 socket head screws (assorted),,,,
+,fasteners,m8_screws_pack,M8 socket head screws (assorted),,,,seat-to-tilt-mech
+,fasteners,inserts,M4 heat-set inserts,,,,for printed parts
+1,misc,usb_c_cable,USB-C to USB-C cable 1m,,,,for charging + initial flash
