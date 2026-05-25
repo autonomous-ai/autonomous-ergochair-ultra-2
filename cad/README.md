@@ -9,6 +9,7 @@ All 3D and 2D design files for the chair.
 - `step/` — STEP files. Open in any CAD tool. Use this if you want to edit but don't have the source software.
 - `stl/` — STL files ready to 3D print
 - `drawings/` — 2D drawings with dimensions (PDF)
+- `thumbnails/` — isometric PNG previews of each part, one per STL (browse without a CAD tool)
 
 ## Major Parts
 
