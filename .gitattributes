@@ -34,13 +34,6 @@
 *.dxf filter=lfs diff=lfs merge=lfs -text
 *.dwg filter=lfs diff=lfs merge=lfs -text
 
-# PCB / electronics
-*.kicad_pcb filter=lfs diff=lfs merge=lfs -text
-*.kicad_sch filter=lfs diff=lfs merge=lfs -text
-*.kicad_pro filter=lfs diff=lfs merge=lfs -text
-*.gbr       filter=lfs diff=lfs merge=lfs -text
-*.drl       filter=lfs diff=lfs merge=lfs -text
-
 # Archives
 *.zip    filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
