@@ -12,9 +12,6 @@ Extra documentation that doesn't fit in other folders.
 
 ## To be updated
 
-- `architecture.md` — how everything fits together (sensors → MCU → app)
-- `posture-algorithm.md` — how the pressure-mat + IMU produce a posture score
-- `lumbar-control.md` — closed-loop bladder pressure control
+- `materials.md` — what each part is made of, finishes, tolerances
+- `maintenance.md` — long-term care beyond what the PDF covers
 - `troubleshooting.md` — common problems and fixes
-- `ota.md` — how OTA updates work
-- `ble-gatt.md` — service / characteristic spec for the companion app

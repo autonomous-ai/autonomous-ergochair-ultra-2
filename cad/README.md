@@ -51,14 +51,14 @@ is preserved as a numeric suffix (`-N`) so re-labels are traceable.
 | [`paddle-lever-31`](thumbnails/paddle-lever-31.png) | 48 × 21 × 25 | adjustment paddle (left/right pair with 43) |
 | [`paddle-lever-43`](thumbnails/paddle-lever-43.png) | 48 × 21 × 25 | adjustment paddle (mirror of 31) |
 
-### Sourced parts (gas lift, lumbar)
+### Sourced parts (gas lift)
 
 | Part | Size (mm) | Notes |
 |---|---|---|
 | [`gas-cylinder-42`](thumbnails/gas-cylinder-42.png) | 53 × 198 × 45 | gas lift cylinder (the `GAS PUMP` in the assembly guide) |
 | [`gas-bushing-30`](thumbnails/gas-bushing-30.png) | 28 × 64 × 35 | gas-cylinder bushing/spacer |
 | [`gas-bushing-33`](thumbnails/gas-bushing-33.png) | 28 × 64 × 35 | gas-cylinder bushing/spacer (identical to 30) |
-| [`lumbar-bladder-mount-11`](thumbnails/lumbar-bladder-mount-11.png) | holds the lumbar air bladder |
+| [`lumbar-bladder-mount-11`](thumbnails/lumbar-bladder-mount-11.png) | mechanical lumbar support bracket (legacy name) |
 
 ### Hardware (small pins / clips / grommets)
 

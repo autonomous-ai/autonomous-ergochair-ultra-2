@@ -4,7 +4,7 @@ Thanks for helping. Keep it simple.
 
 ## Before You Push
 
-Install Git LFS once. We use it for CAD, STL, STEP, PCB, video, PDF.
+Install Git LFS once. We use it for CAD, STL, STEP, and PDF.
 
 ```
 brew install git-lfs       # macOS
@@ -16,44 +16,32 @@ Then `git add` and `git commit` work normally. See `docs/git-lfs.md`.
 
 ## Upload CAD
 
-- Put editable files in `cad/source/` (keep the original format: .f3d, .FCStd, .SLDPRT, etc.)
+- Put editable files in `cad/source/` (keep the original format: `.SLDPRT`, `.f3d`, `.FCStd`, etc.)
 - Always export and upload a `.step` to `cad/step/` so anyone can open it
 - Export `.stl` to `cad/stl/` for 3D printing
-- One folder per part if it has many versions
+- Re-render a `cad/thumbnails/<part>.png` when geometry changes
 
-File name format: `part-name_v1.step`, `part-name_v2.step`
+File name format: `part-name-<bodyN>.step` (kebab-case + numeric body-export suffix).
+For versioned parts: `part-name-v2-<bodyN>.step`.
 
-Example part names for this chair: `seat-pan_v1`, `back-frame_v2`, `armrest-yoke_v3`, `lumbar-bladder-mount_v1`, `controller-housing_v1`.
+## Write Assembly Notes
 
-## Upload Electronics
-
-- Schematics: PDF + source file (KiCad preferred)
-- PCB: include Gerber zip for fab
-- Update `electronics/bom/parts.csv` if you change parts
-
-## Write Assembly Guide
-
-- Use `assembly/README.md`
-- Numbered steps. One photo per step.
-- Photos in `assembly/photos/`, name them `step-01.jpg`, `step-02.jpg`...
+- The canonical assembly is the bundled PDF (`docs/assembly-guide.pdf`).
+- Companion notes in `assembly/README.md`.
+- Photos in `assembly/photos/`, named `step-01.jpg`, `step-02.jpg`, …
 
 ## Rules
 
 - No big words. Write so a beginner can follow.
 - Test before you push. If you can, print or build it yourself first.
-- Commit message: short, clear. Example: `add v2 lumbar bracket STEP file`
-- One topic per Pull Request.
+- Commit messages: short and clear. One topic per Pull Request.
 
 ## License of Your Contributions
 
 By sending a Pull Request you agree your contribution is licensed under the
-same terms as the project:
-- Hardware/CAD/docs: CC BY-NC-SA 4.0
-- Code/firmware: PolyForm Noncommercial 1.0.0
-
-This means your contribution is free for personal/community use and not for
-commercial use without permission. See [LICENSE.md](LICENSE.md) for the summary
-or [LICENSE](LICENSE) / [LICENSE-CODE](LICENSE-CODE) for full legal text.
+same terms as the project: **CC BY-NC-SA 4.0** (free for personal/community
+use, not for commercial use without permission). See [LICENSE.md](LICENSE.md)
+for the plain-English summary or [LICENSE](LICENSE) for the full legal text.
 
 ## Issues
 

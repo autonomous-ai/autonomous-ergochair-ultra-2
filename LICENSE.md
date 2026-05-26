@@ -3,9 +3,7 @@
 > **Free to build for yourself, friends, school, or hackerspace.**
 > **Not free to sell or use commercially without permission.**
 
-For the legally binding text, see:
-- [**LICENSE**](LICENSE) — hardware, CAD, docs (CC BY-NC-SA 4.0)
-- [**LICENSE-CODE**](LICENSE-CODE) — firmware, scripts, tools (PolyForm Noncommercial 1.0.0)
+For the legally binding text, see [**LICENSE**](LICENSE) (CC BY-NC-SA 4.0).
 
 ---
 
@@ -35,21 +33,17 @@ Open an Issue titled `[COMMERCIAL] your question` — we are open to talking.
 
 ---
 
-## Which License Covers What?
+## License coverage
 
-| What | License | File |
-|------|---------|------|
-| CAD, STL, STEP, PCB, schematics, drawings, photos, docs, BOM | CC BY-NC-SA 4.0 | [LICENSE](LICENSE) |
-| Firmware, code, scripts, tools | PolyForm Noncommercial 1.0.0 | [LICENSE-CODE](LICENSE-CODE) |
+Everything in this repo (CAD, STL, STEP, drawings, photos, docs, BOM) is
+licensed under **CC BY-NC-SA 4.0** — see [LICENSE](LICENSE).
 
-**Official references:**
-- CC BY-NC-SA 4.0: <https://creativecommons.org/licenses/by-nc-sa/4.0/>
-- PolyForm Noncommercial 1.0.0: <https://polyformproject.org/licenses/noncommercial/1.0.0/>
+Official reference: <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 ---
 
 Copyright © 2026 Autonomous AI. All rights reserved where not granted above.
 
 This summary is for convenience only. If there is any conflict between this
-summary and the full license texts in [LICENSE](LICENSE) and
-[LICENSE-CODE](LICENSE-CODE), the full license texts apply.
+summary and the full license text in [LICENSE](LICENSE), the full license
+text applies.

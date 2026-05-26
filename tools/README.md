@@ -1,16 +1,14 @@
 # Tools
 
-Helper scripts.
+Helper scripts for working with the CAD files.
 
 Put any small tool here:
-- BOM generator
-- STL batch exporter
-- Firmware flasher wrapper
-- Pressure-mat calibration helper
-- CI checks
+- STL → thumbnail batch renderer (trimesh + matplotlib)
+- STL batch decimator / exporter
+- BOM generator / CSV linter
 
 Keep each tool in its own subfolder with a short README.
 
-> **Status: to be updated** — no tools uploaded yet. A standalone STL→PNG
-> thumbnail generator (trimesh + matplotlib) was used to produce
-> `cad/thumbnails/`; it lives in `/tmp` for now and should be moved here.
+> **Status: to be updated** — no tools uploaded yet. The standalone STL→PNG
+> thumbnail generator used to produce `cad/thumbnails/` is currently ad-hoc
+> and should be moved here.
