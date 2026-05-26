@@ -24,3 +24,5 @@ The controller housing sits under the seat pan. Three cable bundles leave it:
 3. **Down the gas cylinder** → LED ring + USB-C charge port at the caster spider
 
 Use 22 AWG silicone wire for everything that flexes (anywhere the back recline moves the cable). Solid-core breaks at the bend point within weeks.
+
+> **Status: to be updated** — no wiring diagrams or pinout tables uploaded yet.

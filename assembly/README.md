@@ -2,11 +2,20 @@
 
 How to build the chair, step by step.
 
+> **Note (2026-05):** This is a *draft* combined-build guide for the
+> smart-chair version. For the **original Autonomous ErgoChair Ultra 2**
+> product (mechanical assembly only, no electronics), use the bundled PDF:
+> [`../docs/assembly-guide.pdf`](../docs/assembly-guide.pdf).
+>
+> The step-by-step photos referenced below (`photos/step-XX.jpg`) and the
+> companion build videos are **to be updated** — the file references are
+> placeholders pending a real build session.
+
 ## Before You Start
 
-1. Read the full guide first
+1. Read the full guide first, and the [product assembly guide PDF](../docs/assembly-guide.pdf)
 2. Get all parts (`bom/parts.csv` and `electronics/bom/parts.csv`)
-3. Print all CAD parts (`cad/stl/`)
+3. Print all CAD parts (`cad/stl/` — see [cad/README.md](../cad/README.md) for the 36 parts uploaded so far)
 4. Tools needed: hex keys (4 / 5 / 6 mm), Phillips driver, rubber mallet, soldering iron, multimeter, heat-shrink + gun
 
 ## Time

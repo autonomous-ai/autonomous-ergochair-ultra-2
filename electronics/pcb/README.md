@@ -12,3 +12,5 @@ Naming: `board-name_v1.kicad_pcb`, `board-name_v1_gerber.zip`
 Boards expected here:
 - `chair-main_v1` — main controller (ESP32-S3, sensor I²C bus, pump/valve MOSFETs, LED ring header)
 - `chair-power_v1` — charging + boost
+
+> **Status: to be updated** — no PCB files uploaded yet.
