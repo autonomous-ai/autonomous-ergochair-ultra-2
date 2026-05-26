@@ -5,11 +5,11 @@ ergonomic chair. CAD, drawings, BOM, and assembly guide. No paywall.
 
 ## What is this?
 
-A high-back ergonomic chair with:
+Lumbarless flex-frame chair with:
 
-- Mesh back with adjustable headrest
+- Mesh back
 - Synchro-tilt mechanism with locking + adjustable tension
-- Manual lumbar support
+- Backrest flexes with your spine
 - Seat depth + seat height adjustment
 - 4D armrests (height, width, depth, swivel)
 - Class-4 gas lift on a 5-arm caster base
