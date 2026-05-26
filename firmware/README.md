@@ -50,3 +50,6 @@ Once connected to Wi-Fi, you can update over the air. See `docs/ota.md`.
 | `0xA001` | lumbar_actual_kpa | notify | measured |
 
 Numbers are placeholder until the app is in repo.
+
+> **Status: to be updated** — no firmware source uploaded yet; this README is
+> the design intent.

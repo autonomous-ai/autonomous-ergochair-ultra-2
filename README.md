@@ -20,29 +20,51 @@ Everything in this repo: the CAD, the electronics, the firmware, the BOM, and th
 
 ```
 cad/            3D design files
-  concept/      Sketches, ideas, early drafts
-  source/       Editable CAD (Fusion 360, FreeCAD, SolidWorks)
-  step/         STEP files (works in any CAD tool)
-  stl/          STL files ready to 3D print
-  drawings/     2D drawings, dimensions (PDF)
+  concept/      Sketches, ideas, early drafts            [to be updated]
+  source/       Editable CAD (Fusion 360, FreeCAD, ...)  [to be updated]
+  step/         STEP files (works in any CAD tool)       — 36 parts
+  stl/          STL files ready to 3D print              — 36 parts
+  thumbnails/   Isometric PNG previews, one per STL      — 36 images
+  drawings/     2D drawings, dimensions (PDF)            [to be updated]
 
 electronics/    All electronics stuff
-  schematics/   Circuit diagrams
-  pcb/          PCB design files (KiCad, Gerber)
-  bom/          Parts list for electronics
-  wiring/       Wiring diagrams, pinouts
+  schematics/   Circuit diagrams                         [to be updated]
+  pcb/          PCB design files (KiCad, Gerber)         [to be updated]
+  bom/          Parts list for electronics               — parts.csv present
+  wiring/       Wiring diagrams, pinouts                 [to be updated]
 
-firmware/       Code that runs on the chair controller (MCU)
+firmware/       Code that runs on the chair controller   [to be updated]
 
 assembly/       How to build it
-  photos/       Step-by-step photos
-  videos/       Build videos (links or files)
+  README.md     Step-by-step build instructions          — draft, present
+  photos/       Step-by-step photos                      [to be updated]
+  videos/       Build videos (links or files)            [to be updated]
 
 docs/           Extra docs, guides, notes
-bom/            Full bill of materials (all parts, prices, links)
-tools/          Scripts, helper tools
-examples/       Example apps and integrations
+  assembly-guide.pdf   Original Autonomous product guide — present
+  git-lfs.md           How to use Git LFS                — present
+  (architecture, posture-algo, BLE, OTA, ...)            [to be updated]
+
+bom/            Full bill of materials                   — parts.csv present (suppliers TBU)
+tools/          Scripts, helper tools                    [to be updated]
+examples/       Example apps and integrations            [to be updated]
 ```
+
+## Status at a Glance
+
+| Area | State |
+|---|---|
+| Mechanical CAD (STEP / STL / thumbnails) | **36 parts uploaded** — see [`cad/README.md`](cad/README.md) |
+| Product assembly guide (PDF) | **Uploaded** → [`docs/assembly-guide.pdf`](docs/assembly-guide.pdf) |
+| Mechanical BOM | Skeleton CSV present; supplier links **to be updated** |
+| Editable CAD source files | **To be updated** |
+| 2D drawings | **To be updated** |
+| Electronics schematics / PCB / wiring | **To be updated** |
+| Firmware | **To be updated** |
+| Build photos / videos | **To be updated** |
+| Extra docs (architecture, posture algo, BLE, OTA) | **To be updated** |
+
+`TBU` / `to be updated` markers throughout the repo point at sections that still need uploaded content. Placeholder READMEs describe what each section is for.
 
 ## Big Files: Git LFS
 
@@ -58,12 +80,13 @@ git clone https://github.com/autonomous-ai/autonomous-ergochair-ultra-2.git
 
 ## Want to Build One?
 
-1. Read [assembly/README.md](assembly/README.md) first
-2. Get the parts from [bom/](bom/)
-3. Print or order CAD parts from [cad/stl/](cad/stl/) or [cad/step/](cad/step/)
-4. Build the electronics in [electronics/](electronics/)
-5. Flash firmware from [firmware/](firmware/)
-6. Follow the assembly steps
+1. Read [assembly/README.md](assembly/README.md) and the bundled [`docs/assembly-guide.pdf`](docs/assembly-guide.pdf) (original Autonomous product guide)
+2. Browse parts visually in [cad/thumbnails/](cad/thumbnails/) — one PNG per CAD part
+3. Get the parts from [bom/](bom/)
+4. Print or order CAD parts from [cad/stl/](cad/stl/) or [cad/step/](cad/step/)
+5. Build the electronics in [electronics/](electronics/) *(content TBU)*
+6. Flash firmware from [firmware/](firmware/) *(content TBU)*
+7. Follow the assembly steps
 
 ## Want to Help?
 
